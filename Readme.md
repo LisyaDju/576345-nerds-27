@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Джу Лисья](https://up.htmlacademy.ru/htmlcss/27/user/576345).
-* Наставник: `Неизвестно`.
+* Наставник: [Марина](https://github.com/HardFrontend).
 
 ---
 
