@@ -34,6 +34,58 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- тут будут формы -->
+        
+        <section class="filters-radio-button">
+          <form action="#" name="radio-form" method="get">
+            <label for="radio-check">
+              <input type="radio" name="radio-grid" value="adaptive">
+              Адаптивная
+            </label>
+            <label for="radio-check">
+              <input type="radio" name="radio-grid" value="fixed">
+              Фиксированная
+            </label>
+            <label for="radio-check">
+              <input type="radio" name="radio-grid" value="rubber">
+              Резиновая
+            </label>
+          </form>
+        </section>
+
+        <section class="catalog-checkbox">
+          <form action="#" name="features-form" method="get">
+            <span>ОСОБЕННОСТИ:</span>
+            <label for="check-form">
+              <input type="checkbox" name="check-features" id="subscribe-field" checked>
+              <span class="filters-image-checkbox"></span>
+              Слайдер
+            </label>
+            <label for="check-form">
+              <input type="checkbox" name="check-features" id="subscribe-field">
+              <span class="filters-image-checkbox"></span>
+              Блок преимуществ
+            </label>
+            <label for="check-form">
+              <input type="checkbox" name="check-features" id="subscribe-field" checked>
+              <span class="filters-image-checkbox"></span>
+              Новости
+            </label>
+            <label for="check-form">
+              <input type="checkbox" name="check-features" id="subscribe-field">
+              <span class="filters-image-checkbox"></span>
+              Галерея
+            </label>
+            <label for="check-form">
+              <input type="checkbox" name="check-features" id="subscribe-field">
+              <span class="filters-image-checkbox"></span>
+              Корзина
+            </label>
+          </form>
+
+        </section>
+        
+        <input type="submit" value="ПОКАЗАТЬ">
+        <!-- <button class="filters-button">ПОКАЗАТЬ</button> -->
       </section>
 
       <section class="catalog">
@@ -53,6 +105,23 @@
 
       <section class="main-map">
        <!-- тут будет блок с картой -->
+      </section>
+
+      <section class="shipping-form">
+        <form action="#" method="post">
+          <span>Напишите нам</span>
+          <label for="name-field">Ваше имя:</label>
+          <input type="text" id="name-field" name="named-field" placeholder="Имя Фамилия">
+
+          <label for="login-field">Ваш e-mail:</label>
+          <input type="text" id="login-field" name="login" placeholder="email@example.com">
+          
+          <p>Текст письма:</p>
+          <textarea name="comment" id="comment-field" rows="4" placeholder="В свободной форме"></textarea>
+
+          <input type="submit" value="ОТПРАВИТЬ">
+          <!-- <button class="shippin-button">ОТПРАВИТЬ</button> -->
+        </form>
       </section>
 
     </main>
