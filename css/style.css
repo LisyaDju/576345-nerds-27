@@ -50,6 +50,14 @@ html {
   font-style: normal;
 }
 
+.main-header {
+	background-color: #eeeeee;
+}
+
+.main-promo {
+	background-color: #eeeeee;
+}
+
 .white-button {
 	width: 50px;
 	text-transform: uppercase;
@@ -62,6 +70,7 @@ html {
 	font-weight: bold;
 	line-height: 30px;
 	color: #000000;
+	list-style: none;
 }
 
 .user-navigation {
@@ -70,20 +79,58 @@ html {
 	font-weight: bold;
 	line-height: 30px;
 	color: #000000;
+	list-style: none;
 }
 
-.nav-current a:link {
-	color: #000000;
+a.selected {
+	border-bottom: 2px solid #fb565a;
+	pointer-events: none;
 }
 
+.nav-current a:link, 
 .nav-current a:visited {
 	color: #000000;
 }
+
+.nav-current a:hover {
+	color: #fb565a;
+}
+
+.nav-naimed a:hover {
+	color: #fb565a;
+}
+
+.nav-current a:active {
+	color: #b3b3b3;
+}
+
+.nav-naimed a:active {
+	color: #b3b3b3;
+}
+
+.hover-naimed a:link,
+.hover-naimed a:visited {
+	color: #000000;
+}
+
+.hover-naimed a:hover {
+	color: #fb565a;
+}
+
+.hover-naimed a:active {
+	color: #b3b3b3;
+}
+
+
 
 .catalog-heading {
 	font-size: 55px;
 	font-weight: 500;
 	color: #000000;
+}
+
+.catalog-list {
+	list-style: none;
 }
 
 .main-promo span {
@@ -98,6 +145,10 @@ html {
 	font-weight: normal;
 	line-height: 24px;
 	color: #283136;
+}
+
+.trade-offer ul {
+	list-style: none;
 }
 
 .trade-offer h3 {
@@ -142,6 +193,7 @@ html {
 	font-weight: normal;
 	line-height: 24px;
 	color: #283136;
+	list-style: none;
 }
 
 .red-description {
@@ -168,13 +220,19 @@ html {
 	color: #283136;
 }
 
+.partners-list {
+	list-style: none;
+}
+
 .write-us {
 	font-size: 45px;
 	font-weight: 500;
 	color: #000000;
 }
 
-
+.main-footer-list {
+	list-style: none;
+}
 
 .footer-friends {
 	font-size: 36px;
