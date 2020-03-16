@@ -39,7 +39,7 @@
 				 скурпулезно.</span>
 				<p>Математически выверенный дизайн<br>
 				 для вашего сайта или мобильного приложения.</p>
-				<button type="button" class="white-button"><a href="#">узнать больше</a></button>
+				<a href="#" class="white-button red-button">узнать больше</a>
 				<!-- тут должен быть слайдер -->
 				<section class="main-slider">
 					<!-- <img src="img/slide1.png" alt="изображение гаджетов на слайдере" width="698" height="413">
@@ -54,21 +54,21 @@
 	    			<img src="img/web-sites.png" width="300" height="146" alt="картинка с ноутбуком">
 	    			<h3>веб-сайты</h3>
 	    			<p>Мир никогда не будет прежним после того как увидит наш сайт!</p>
-	    			<button class="white-button"><a href="#">ЗАКАЗАТЬ</a></button>
+	    			<a href="#" class="white-button red-button">заказать</a>
 	    		</li>
 
 	    		<li>
 	    			<img src="img/applications.png" width="300" height="146" alt="картинка с телефонами">
 	    			<h3>приложения</h3>
 	    			<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-	    			<button class="white-button"><a href="#">ЗАКАЗАТЬ</a></button>
+	    			<a href="#" class="white-button green-button">заказать</a>
 	    		</li>
 
 	    		<li>
 	    			<img src="img/presentations.png" width="300" height="146" alt="картинка с презентацией">
 	    			<h3>презентации</h3>
 	    			<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-	    			<button class="white-button"><a href="#">ЗАКАЗАТЬ</a></button>
+	    			<a href="#" class="white-button yellow-button">заказать</a>
 	    		</li>
 	    	</ul>
 	    </section>
@@ -122,22 +122,32 @@
 
 		<section class="main-map">
 			 <!-- тут будет блок с картой -->
+
+			 <div class="address">
+			 	<h4>NЁRDS DESIGN STUDIO</h4>
+			 	<p>191186, Санкт-Петербург<br>
+			 	ул. Б. Конюшенная, д. 19/8</p>
+			 	<p>тел. +7 (812) 275-75-75</p>
+
+			 	<a href="#" class="white-button red-button">напишите нам</a>
+			 </div>
+
 		</section>
 
 		<section class="shipping-form">
+			
         <form action="#" method="post">
           <span class="write-us">Напишите нам</span>
-          <label for="name-field">Ваше имя:</label>
+          <label for="name-field" class="form-name">Ваше имя:</label>
           <input type="text" id="name-field" name="named-field" placeholder="Имя Фамилия">
 
-          <label for="login-field">Ваш e-mail:</label>
+          <label for="login-field" class="form-email">Ваш e-mail:</label>
           <input type="text" id="login-field" name="login" placeholder="email@example.com">
           
-          <p>Текст письма:</p>
+          <p class="form-txt">Текст письма:</p>
           <textarea name="comment" id="comment-field" rows="4" placeholder="В свободной форме"></textarea>
 
-					<input type="submit" value="ОТПРАВИТЬ">
-          <!-- <button class="white-button"><a href="#">отправить</a></button> -->
+					<input type="submit" value="ОТПРАВИТЬ" class="white-button red-button">
 
         </form>
       </section>

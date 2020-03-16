@@ -45,15 +45,18 @@
         <section class="filters-radio-button">
           <form action="#" name="radio-form" method="get">
             <label for="radio-check">
-              <input type="radio" name="radio-grid" value="adaptive">
+              <input type="radio" name="radio-grid" value="adaptive" class="radio-txt">
+              <span class="radio-on radio-off radio-blocked"></span>
               Адаптивная
             </label>
             <label for="radio-check">
-              <input type="radio" name="radio-grid" value="fixed">
+              <input type="radio" name="radio-grid" value="fixed" class="radio-txt">
+              <span class="radio-on radio-off radio-blocked"></span>
               Фиксированная
             </label>
             <label for="radio-check">
-              <input type="radio" name="radio-grid" value="rubber">
+              <input type="radio" name="radio-grid" value="rubber" class="radio-txt">
+              <span class="radio-on radio-off radio-blocked"></span>
               Резиновая
             </label>
           </form>
@@ -64,27 +67,27 @@
             <span>ОСОБЕННОСТИ:</span>
             <label for="check-form">
               <input type="checkbox" name="check-features" id="subscribe-field" checked>
-              <span class="filters-image-checkbox"></span>
+              <span class="check-off check-on check-blocked"></span>
               Слайдер
             </label>
             <label for="check-form">
               <input type="checkbox" name="check-features" id="subscribe-field">
-              <span class="filters-image-checkbox"></span>
+              <span class="check-off check-on check-blocked"></span>
               Блок преимуществ
             </label>
             <label for="check-form">
               <input type="checkbox" name="check-features" id="subscribe-field" checked>
-              <span class="filters-image-checkbox"></span>
+              <span class="check-off check-on check-blocked"></span>
               Новости
             </label>
             <label for="check-form">
               <input type="checkbox" name="check-features" id="subscribe-field">
-              <span class="filters-image-checkbox"></span>
+              <span class="check-off check-on check-blocked"></span>
               Галерея
             </label>
             <label for="check-form">
               <input type="checkbox" name="check-features" id="subscribe-field">
-              <span class="filters-image-checkbox"></span>
+              <span class="check-off check-on check-blocked"></span>
               Корзина
             </label>
           </form>
@@ -96,6 +99,19 @@
       </section>
 
       <section class="catalog">
+
+
+        <section class="sorting">
+          <h4>сортировать:</h4>
+          <ul class="sorting-list">
+            <li class="sorting-txt"><a href="#">по цене</a></li>
+            <li class="sorting-txt"><a href="#">по типу</a></li>
+            <li class="sorting-txt"><a href="#">по названию</a></li>
+            <li><a href="#" class="catalog-down"><img src="img/svg/catalog-down.svg" alt="стрелка вниз"></a></li>
+            <li><a href="#" class="catalog-up arrow-selected"><img src="img/svg/catalog-up.svg" alt="стрелка вверх"></a></li>
+          </ul>
+        </section>
+
         <h2 class="visually-hidden">Список готовых шаблонов</h2>
         <ul class="catalog-list">
           <li>
@@ -103,7 +119,7 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">SEDONA</a></h3>
               <p>Информационный сайт для туристов</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
 
@@ -112,7 +128,7 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">PINK APP</a></h3>
               <p>Продуктовый лендинг приложения для iOS и Android</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
 
@@ -121,7 +137,7 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">BARBERSHOP</a></h3>
               <p>Сайт салона красоты. Для мужчин, да.</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
 
@@ -130,7 +146,7 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">MISHKA</a></h3>
               <p>Интернет-магазин вязаных игрушек</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
 
@@ -139,7 +155,7 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">A PLUS</a></h3>
               <p>Лендинг курсов повышения квалификации</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
 
@@ -148,10 +164,17 @@
             <div class="catalog-hover">
               <h3 class="hover-naimed"><a href="#">КВАСТ</a></h3>
               <p>Промо-сайт производителя крафтового кваса</p>
-              <span class="white-button">9900 руб.</span>
+              <span class="white-button red-button">9900 руб.</span>
             </div>
           </li>
         </ul> 
+
+        <ul class="catalog-pagination">
+          <li class="active-pagination"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">следующая</a></li>
+        </ul>
       </section>
 
         
@@ -162,18 +185,18 @@
 
       <section class="shipping-form">
         <form action="#" method="post">
-          <span>Напишите нам</span>
-          <label for="name-field">Ваше имя:</label>
+          <span class="write-us">Напишите нам</span>
+          <label for="name-field" class="form-name">Ваше имя:</label>
           <input type="text" id="name-field" name="named-field" placeholder="Имя Фамилия">
 
-          <label for="login-field">Ваш e-mail:</label>
+          <label for="login-field" class="form-email">Ваш e-mail:</label>
           <input type="text" id="login-field" name="login" placeholder="email@example.com">
           
-          <p>Текст письма:</p>
+          <p class="form-txt">Текст письма:</p>
           <textarea name="comment" id="comment-field" rows="4" placeholder="В свободной форме"></textarea>
 
-          <input type="submit" value="ОТПРАВИТЬ">
-          <!-- <button class="shippin-button">ОТПРАВИТЬ</button> -->
+          <input type="submit" value="ОТПРАВИТЬ" class="white-button red-button">
+
         </form>
       </section>
 

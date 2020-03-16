@@ -59,9 +59,25 @@ html {
 }
 
 .white-button {
-	width: 50px;
+	height: 50px;
 	text-transform: uppercase;
 	color: #ffffff;
+	border-radius: 3px;
+	vertical-align: middle;
+	text-align: center;
+	border: none;
+}
+
+.red-button {
+	background-color: #fb565a;
+}
+
+.green-button {
+	background-color: #00ca74;
+}
+
+.yellow-button {
+	background-color: #efc84a;
 }
 
 .site-navigation {
@@ -220,14 +236,95 @@ a.selected {
 	color: #283136;
 }
 
+.radio-txt {
+	color: #283136;
+}
+
+.sorting-list {
+	list-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.sorting-txt a:link,
+.sorting-txt a:visited, {
+	color: #b3b3b3;
+}
+
+.sorting-list a:link,
+.sorting-list a:visited, {
+	color: #b3b3b3;
+}
+
+.sorting-list a:hover {
+	color: #666666;
+}
+
+.sorting-list a:active {
+	color: #000000;
+}
+
+.radio-on {
+	
+}
+
+.check-off {
+	background-image: url(img/svg/checkbox-off.svg);
+}
+
+.catalog-pagination {
+	list-style: none;
+	font-size:  16px;
+	text-transform: uppercase;
+}
+
+.catalog-pagination a:link,
+.catalog-pagination a:visited {
+	color: #000000;
+}
+
+.catalog-pagination a:active {
+	color: #b3b3b3;
+}
+
+
+
 .partners-list {
 	list-style: none;
+}
+
+.main-map {
+	background-color: #eeeeee;
+}
+
+.address {
+	background-color: #fff;
 }
 
 .write-us {
 	font-size: 45px;
 	font-weight: 500;
 	color: #000000;
+}
+
+.shipping-form {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-name {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-email {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-txt {
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .main-footer-list {
