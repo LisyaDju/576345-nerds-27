@@ -246,13 +246,11 @@ a.selected {
 	text-transform: uppercase;
 }
 
-.sorting-txt a:link,
-.sorting-txt a:visited, {
+.sorting-txt {
 	color: #b3b3b3;
 }
 
-.sorting-list a:link,
-.sorting-list a:visited, {
+.sorting-txt a:visited, {
 	color: #b3b3b3;
 }
 
@@ -278,13 +276,17 @@ a.selected {
 	text-transform: uppercase;
 }
 
-.catalog-pagination a:link,
 .catalog-pagination a:visited {
 	color: #000000;
 }
 
 .catalog-pagination a:active {
 	color: #b3b3b3;
+}
+
+.checkbox-button {
+	font-size: 16px;
+	color: #000000;
 }
 
 
