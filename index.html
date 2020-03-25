@@ -9,31 +9,33 @@
   </head>
   <body>
 		<header class="main-header">
-			<nav class="main-navigation">
-				<a class="main-header-logo">
-					<img src="img/svg/nerds-logo.svg" alt="Логотип дизайн-студии «Нёрдс»" width="160" height="65">
-				</a>
-				
-					<ul class="site-navigation">
-            <li class="nav-current"><a href="index.html">студия</a></li>
-            <li class="nav-current"><a href="customers.html">клиенты</a></li>
-            <li class="nav-current"><a href="catalog.html">магазин</a></li>
-            <li class="nav-current"><a href="contacts.html">контакты</a></li>
-          </ul>
+			<div class="container">
+				<nav class="main-navigation">
+					<a class="main-header-logo">
+						<img src="img/svg/nerds-logo.svg" alt="Логотип дизайн-студии «Нёрдс»" width="160" height="65">
+					</a>
+					
+						<ul class="site-navigation">
+	            <li class="nav-current"><a href="index.html">студия</a></li>
+	            <li class="nav-current"><a href="customers.html">клиенты</a></li>
+	            <li class="nav-current"><a href="catalog.html">магазин</a></li>
+	            <li class="nav-current"><a href="contacts.html">контакты</a></li>
+	          </ul>
 
-					<ul class="user-navigation">
-	          <li class="nav-current">
-							<img src="img/svg/cart-icon.svg" alt="кнопка входа в корзину" width="15" height="15">
-							<a class="login-link" href="login.html">
-								корзина
-							</a>
-	           </li>
-	        </ul>
-			</nav>
+						<ul class="user-navigation">
+		          <li class="nav-current">
+								<img src="img/svg/cart-icon.svg" alt="кнопка входа в корзину" width="15" height="15">
+								<a class="login-link" href="login.html">
+									корзина
+								</a>
+		           </li>
+		        </ul>
+				</nav>
+			</div>
 			
 		</header>
 
-    <main class="container">
+    <main class="main-container">
 			<section class="main-promo">
 				<span>Долго, дорого,<br>
 				 скурпулезно.</span>
@@ -49,75 +51,86 @@
 			</section>
 
     	<section class="trade-offer">
-	    	<ul class="trade-offer-list">
-	    		<li>
-	    			<img src="img/web-sites.png" width="300" height="146" alt="картинка с ноутбуком">
-	    			<h3>веб-сайты</h3>
-	    			<p>Мир никогда не будет прежним после того как увидит наш сайт!</p>
-	    			<a href="#" class="white-button red-button">заказать</a>
-	    		</li>
+    		<div class="container">
+		    	<ul class="trade-offer-list">
+		    		<li>
+		    			<img src="img/web-sites.png" width="300" height="146" alt="картинка с ноутбуком">
+		    			<h3>веб-сайты</h3>
+		    			<p>Мир никогда не будет прежним после того как увидит наш сайт!</p>
+		    			<a href="#" class="white-button red-button">заказать</a>
+		    		</li>
 
-	    		<li>
-	    			<img src="img/applications.png" width="300" height="146" alt="картинка с телефонами">
-	    			<h3>приложения</h3>
-	    			<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-	    			<a href="#" class="white-button green-button">заказать</a>
-	    		</li>
+		    		<li>
+		    			<img src="img/applications.png" width="300" height="146" alt="картинка с телефонами">
+		    			<h3>приложения</h3>
+		    			<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+		    			<a href="#" class="white-button green-button">заказать</a>
+		    		</li>
 
-	    		<li>
-	    			<img src="img/presentations.png" width="300" height="146" alt="картинка с презентацией">
-	    			<h3>презентации</h3>
-	    			<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-	    			<a href="#" class="white-button yellow-button">заказать</a>
-	    		</li>
-	    	</ul>
+		    		<li>
+		    			<img src="img/presentations.png" width="300" height="146" alt="картинка с презентацией">
+		    			<h3>презентации</h3>
+		    			<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+		    			<a href="#" class="white-button yellow-button">заказать</a>
+		    		</li>
+		    	</ul>
+		    </div>
 	    </section>
 
 	    <section class="main-description">
-	    	<h2 class="headline-description">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-	    	<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-				<h4 class="list-description">выполняем заказы на разработку:</h4>
+	    	<div class="container">
+					
+					<div class="about-us">
+						<div class="about-us-txt">
+				    	<h2 class="headline-description">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+				    	<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+							<h4 class="list-description">выполняем заказы на разработку:</h4>
 
-					<ul class="main-description-list">
-						<li><b class="red-description">&mdash;</b> Веб-сайтов любой сложности</li>
-						<li><b class="red-description">&mdash;</b> Мобильных приложений для iOS и Android</li>
-						<li><b class="red-description">&mdash;</b> Слайдшоу и видео для копоративных презентаций</li>
-					</ul>
+								<ul class="main-description-list">
+									<li><b class="red-description">&mdash;</b> Веб-сайтов любой сложности</li>
+									<li><b class="red-description">&mdash;</b> Мобильных приложений для iOS и Android</li>
+									<li><b class="red-description">&mdash;</b> Слайдшоу и видео для копоративных презентаций</li>
+								</ul>
+						</div>
 
-					<section class="statistics">
-						<img src="img/nerds-color-logo.png" width="360" height="208" alt="цветной логотип дизайн-студии «Нёрдс»">
-						<span>С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЁМ:</span>
+							<section class="statistics">
+								<img src="img/nerds-color-logo.png" width="360" height="208" alt="цветной логотип дизайн-студии «Нёрдс»">
+								<span>С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЁМ:</span>
 
-						<table class="reasons">
-							<tr>
-								<th><span>146<sup>%</sup></span>
-								</th>
+								<table class="reasons">
+									<tr>
+										<th><span>146<sup>%</sup></span>
+										</th>
 
-								<th><span>100<sup>%</sup></span></th>
+										<th><span>100<sup>%</sup></span></th>
 
-								<th><span>50<sup>%</sup></span></th>
+										<th><span>50<sup>%</sup></span></th>
 
-							</tr> 
+									</tr> 
 
-							<!--ряд с ячейками заголовков-->
+									<!--ряд с ячейками заголовков-->
 
-							<tr>
-								<td><p>Уровень самоотдачи</p></td>
-								<td><p>Соблюдение сроков</p></td>
-								<td><p>Минимальная предоплата</p></td>
-							</tr> <!--ряд с ячейками тела таблицы-->
-						</table>
+									<tr>
+										<td><p>Уровень самоотдачи</p></td>
+										<td><p>Соблюдение сроков</p></td>
+										<td><p>Минимальная предоплата</p></td>
+									</tr> <!--ряд с ячейками тела таблицы-->
+								</table>
 
-					</section>
+							</section>
+						</div>
+					</div>	
 	    </section>
 		
 		<section class="partners">
-			<ul class="partners-list">
-				<li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.png" width="199" height="68" alt="логотип htmlacademy"></a></li>
-				<li><a href="http://barbershop-borodinski.webflow.io/"><img src="img/logo-borodinski.png" width="209" height="90" alt="логотип барбершопа Бородинский"></a></li>
-				<li><a href="http://biggus-dickus.github.io/pink/"><img src="img/logo-pink.png" width="185" height="52" alt="логотип Pink"></a></li>
-				<li><a href="https://oliktva.github.io/mishka/"><img src="img/logo-mishka.png" width="173" height="84" alt="логотип Мишка"></a></li>
-			</ul>
+			<div class="container">
+				<ul class="partners-list">
+					<li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.png" width="199" height="68" alt="логотип htmlacademy"></a></li>
+					<li><a href="http://barbershop-borodinski.webflow.io/"><img src="img/logo-borodinski.png" width="209" height="90" alt="логотип барбершопа Бородинский"></a></li>
+					<li><a href="http://biggus-dickus.github.io/pink/"><img src="img/logo-pink.png" width="185" height="52" alt="логотип Pink"></a></li>
+					<li><a href="https://oliktva.github.io/mishka/"><img src="img/logo-mishka.png" width="173" height="84" alt="логотип Мишка"></a></li>
+				</ul>
+			</div>
 		</section>
 
 		<section class="main-map">
@@ -155,13 +168,19 @@
     </main>
 
     <footer class="main-footer">
-    	<ul class="main-footer-list">
-    		<li><a href=""><img src="img/svg/vk-icon.svg" alt="ссылка на вконтакте"  width="26" height="15"></a></li>
-    		<li><a href=""><img src="img/svg/fb-icon.svg" alt="ссылка на фейсбук" width="12" height="22"></a></li>
-    		<li><a href=""><img src="img/svg/insta-icon.svg" alt="ссылка на инстаграм" width="21" height="21"></a></li>
-    	</ul>
-    	<span class="footer-friends">Давайте дружить, это выгодно!</span>
-    	<p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
+    	<div class="container footer-container">
+				
+	    		<ul class="main-footer-list">
+	    		
+		    		<li><a href=""><img src="img/svg/vk-icon.svg" alt="ссылка на вконтакте"  width="26" height="15"></a></li>
+		    		<li><a href=""><img src="img/svg/fb-icon.svg" alt="ссылка на фейсбук" width="12" height="22"></a></li>
+		    		<li><a href=""><img src="img/svg/insta-icon.svg" alt="ссылка на инстаграм" width="21" height="21"></a></li>
+		    	</ul>
+		    	<div class="footer-block-txt">
+			    	<span class="footer-friends">Давайте дружить, это выгодно!</span>
+			    	<p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
+			    </div>
+	    </div>
     </footer>
 
   </body>
